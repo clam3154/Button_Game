@@ -3,7 +3,7 @@ package sample;
 import javafx.event.ActionEvent;
 import javafx.scene.control.Label;
 
-public class Controller
+public class BackEnd
 {
     public Label score;
     private int count = 0;
