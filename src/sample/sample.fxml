@@ -5,6 +5,6 @@
 <?import javafx.scene.control.Label?>
 <GridPane fx:controller="sample.Controller"
           xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
-    <Button text = "Click Me" onAction="#Count"/>
-    <Label GridPane.rowIndex="1" fx:id="helloWorld" text = "Score: 0"/>
+    <Button text = "Click Me" onAction="#pressButton"/>
+    <Label GridPane.rowIndex="1" fx:id="score" text = "Score: 0"/>
 </GridPane>
